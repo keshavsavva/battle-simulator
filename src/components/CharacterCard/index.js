@@ -15,7 +15,7 @@ const styles = theme => ({
     },
     media: {
       height: 0,
-      paddingTop: '56.25%', // 16:9
+      paddingTop: '100%', 
     },
   });
 
@@ -47,7 +47,7 @@ export class CharacterCard extends Component {
                     <Paper>
                         <Card>
                             <CardHeader title={this.props.name}/>
-                            <CardMedia image={placeholder} className={classes.media}/>
+                            <CardMedia image={this.props.pic} className={classes.media}/>
                         </Card>
                     </Paper>
                 </HtmlTooltip>
