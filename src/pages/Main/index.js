@@ -19,7 +19,7 @@ export class Main extends Component {
                     <Grid item xs={12}>
                         <Paper>
                             <p>Test your mettle against the fiercest champions in the realm. Do you have what it takes to be Battle Champion?</p>
-                            <Link to="/battle"><Button>TO BATTLE!</Button></Link>
+                            <Link to="/character"><Button>TO BATTLE!</Button></Link>
                         </Paper>
                     </Grid>
                 </Grid>
